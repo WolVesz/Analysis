@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 
 import sys 
-#sys.path.append(r'M:\Python\Personal\DataAnalysis')
-sys.path.append(r'C:\Development\Git\DataAnalysis')
+sys.path.append(os.getenv("Analysis"))
 
 from Analysis import Plotting, Stats
 import plotly.graph_objects as go

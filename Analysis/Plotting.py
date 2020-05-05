@@ -1,7 +1,6 @@
 #pip install scikit-misc
 import sys 
-sys.path.append(r'M:\Python\Personal\DataAnalysis')
-sys.path.append(r'C:\Development\Git\DataAnalysis')
+sys.path.append(os.getenv("Analysis"))
 
 import time
 

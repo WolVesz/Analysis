@@ -2,8 +2,7 @@ from __future__ import division
 
 import sys 
 import warnings
-sys.path.append(r'M:\Python\Personal\DataAnalysis')
-sys.path.append(r'C:\Development\Git\DataAnalysis')
+sys.path.append(os.getenv("Analysis"))
 
 import numpy as np
 import pandas as pd
